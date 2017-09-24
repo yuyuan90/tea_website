@@ -9,11 +9,13 @@ body{
 }
 #container{
     width: 100%;
+    min-width: 1024px;
     height: 100%;
     margin: 0 auto;
 }
 header nav.navbar{
     width: 100%;
+    min-width: 1024px;
     height: 111px;
     background: #F7F7F7;
     border: none;
@@ -63,25 +65,29 @@ a.left, a.right{
 }
 #cover_container{
     width: 100%;
+    min-width: 1024px;
     height: 100%;
     margin-top: 0;
 }
 #cover_container_inner{
     width: 100%;
-    height: 100%;
+    min-width: 1024px;
+    height: 680px;
     margin: 0 auto;
+    background: url('../imgs/tea_cover1.jpg') no-repeat top left;
 }
 
 
 #veil{
     width: 100%;
-    height: 100%;
+    min-width: 1024px;
+    height: 680px;
     position: absolute;
-    top: 0;
+    top: 111px;
     text-align: center;
     z-index: 9;
     box-sizing: border-box;
-    padding-top: 6%
+    padding-top: 9%
 }
 #veil div.row{
     width: 900px;
@@ -134,7 +140,7 @@ div#main_title div:last-child img{
 
 #news_container{
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     box-sizing: border-box;
     padding: 30px 10px;
     background: white;
@@ -142,6 +148,7 @@ div#main_title div:last-child img{
 #news__inner_container{
     width: 100%;
     max-width: 1200px;
+    min-width: 1024px;
     margin: 0 auto;
 }
 #news_container .thumbnail{
@@ -178,9 +185,11 @@ div#main_title div:last-child img{
 }
 #news_container h3{
     text-align: center;
-    color: #ad2e2d;
+    color: rgb(105, 124, 122);
     font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     line-height: 1.2;
 }
@@ -188,18 +197,20 @@ div#main_title div:last-child img{
 
 #culture_container{
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
     box-sizing: border-box;
-    padding: 20px 0px;
+    padding: 20px 0px 10px;
 }
 .culture_inner_container{
+    max-width: 1200px;
+    min-width: 1024px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .culture_inner_container img{
-    width: 380px;
+    width: 420px;
     height: 320px;
 }
 .culture_inner_container div{
@@ -210,7 +221,7 @@ div#main_title div:last-child img{
     width: 780px;
     line-height: 1.7;
     letter-spacing:1px;
-    color: #424f6f;
+    color: rgb(105, 124, 122);
 }
 .culture_inner_container div img{
     width: 80px;
@@ -227,17 +238,19 @@ div#main_title div:last-child img{
 }
 #category_inner_container{
     width: 100%;
+    min-width: 1024px;
     max-width: 1200px;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 30px 0px;
 }
 #category_container img{
-    width: 180px;
+    width: 110px;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 }
+
 #category_container .category{
     width: 100%;
     border-bottom: 1px solid rgb(238,238,238);
@@ -255,8 +268,8 @@ div.tea{
 
 }
 div.tea p {
-    margin-bottom: 20px;
-    color: #0f2744;
+    margin-bottom: 32px;
+    color: rgb(105, 124, 122);
     letter-spacing: 1px;
 }
 
@@ -294,13 +307,14 @@ div.tea button:hover{
 
 #produce_container{
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     box-sizing: border-box;
     padding: 20px 0px;
     
 }
 #produce_inner_container{
     width: 100%;
+    min-width: 1024px;
     max-width: 1200px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -312,7 +326,7 @@ div.tea button:hover{
 #produce_container p{
     writing-mode: vertical-rl;
     box-sizing: border-box;
-    line-height: 1.7;
+    line-height: 1.8;
     letter-spacing:1px;
     color: #697C7A;
     margin: 0;
@@ -324,10 +338,11 @@ div.tea button:hover{
     border:1px solid rgb(105, 124, 122);
     color: rgb(105, 124, 122);
     box-sizing: border-box;
-    padding: 40px 2px;
+    padding: 40px 0px;
     display: inline-block;
-    margin-left: 8px;
-    width: 25px;
+    margin-left: 9px;
+    margin-right: 2px;
+    width: 23px;
     box-sizing: border-box;
 }
 #produce_container span.step-darker{
@@ -371,6 +386,7 @@ div.tea button:hover{
 
 footer{
     width: 100%;
+    margin: 0 auto;
     background: rgb(238,238,238);
     box-sizing: border-box;
     border-top: 1px solid white;
@@ -419,6 +435,14 @@ footer{
 }
 .logo-region img{
     width: 100px;
+}
+.redbox{
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+.redbox img{
+    width: 150px;
 }
 
 .up-arrow{
@@ -473,15 +497,26 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .modal-body{
   display: flex;
   align-items: center;
-    padding: 20px 60px;
+    padding: 40px;
     background: #F7F7F7
 }
+.modal-img-con{
+    width: 410px;
+    height: 330px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .modal-body img{
-    width: 360px;
-    height: 360px;
+    width: 410px;
+    height: 330px;
+}
+.modal-body img.small-pic{
+    width: 220px;
+    height: 220px;
 }
 .modal-body div:last-child{
-    width:360px;
+    width:380px;
     margin-left: 40px;
 }
 .modal-body div:last-child div{
