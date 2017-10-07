@@ -74,7 +74,7 @@ a.left, a.right{
     min-width: 1024px;
     height: 680px;
     margin: 0 auto;
-    background: url('../imgs/tea_cover1.jpg') no-repeat top left;
+    background: url('../imgs/tea_cover.jpg') no-repeat top left;
 }
 
 
@@ -224,8 +224,8 @@ div#main_title div:last-child img{
     color: rgb(105, 124, 122);
 }
 .culture_inner_container div img{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 65px;
     margin-left: 25px;
 }
 
@@ -309,8 +309,7 @@ div.tea button:hover{
     width: 100%;
     margin: 0;
     box-sizing: border-box;
-    padding: 20px 0px;
-    
+    padding: 0px;
 }
 #produce_inner_container{
     width: 100%;
@@ -318,7 +317,7 @@ div.tea button:hover{
     max-width: 1200px;
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 30px 0px;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
     align-items:center
@@ -352,7 +351,7 @@ div.tea button:hover{
     
 }
 #produce_container img{
-    width: 350px;
+    width: 370px;
 }
 
 
@@ -360,8 +359,21 @@ div.tea button:hover{
     width: 100%;
     margin: 0;
     padding: 0;
-    background: white;
-    
+    background: white; 
+}
+
+#about_inner_container{
+    width: 100%;
+    min-width: 1024px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 30px 0px;
+    color: rgb(105, 124, 122)
+}
+
+#about_container span{
+    color: #ad2e2d;
 }
 
 .module-title{
@@ -386,10 +398,21 @@ div.tea button:hover{
 
 footer{
     width: 100%;
-    margin: 0 auto;
+    margin: 0px auto;
     background: rgb(238,238,238);
     box-sizing: border-box;
     border-top: 1px solid white;
+}
+#upper-inner-container{
+    width: 100%;
+    min-width: 1024px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center
 }
 
 #upper-footer{
@@ -398,8 +421,8 @@ footer{
     margin: 0 auto;
 }
 #contact-info{
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     box-sizing: border-box;
     padding-left: 0px;
     
@@ -427,8 +450,8 @@ footer{
     cursor: pointer;
 }
 .logo-region{
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     box-sizing: border-box;
     padding: 50px 0 50px 50px; 
     border-right: 1px solid white; 
@@ -437,9 +460,10 @@ footer{
     width: 100px;
 }
 .redbox{
-    display: flex;
-    align-items: center;
-    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    padding: 25px 0 0 50px;  
 }
 .redbox img{
     width: 150px;
