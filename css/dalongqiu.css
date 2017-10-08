@@ -74,6 +74,7 @@ a.left, a.right{
     min-width: 1024px;
     height: 680px;
     margin: 0 auto;
+    background-size: cover;
     background: url('../imgs/tea_cover.jpg') no-repeat top left;
 }
 
@@ -228,7 +229,13 @@ div#main_title div:last-child img{
     height: 65px;
     margin-left: 25px;
 }
-
+.culture_inner_container span a{
+    color: #ad2e2d
+}
+.culture_inner_container span a:hover{
+    text-decoration: none;
+    cursor: pointer
+}
 
 #category_container{
     width: 100%;

@@ -87,7 +87,7 @@ header #navbar a.nav_logo:hover{
     padding-top: 0px;
 }
 .left_content{
-    margin-bottom: 200px;
+    margin-bottom: 250px;
     
 }
 div.panel-group, div.panel-collapse, .panel-body li, .panel-body, .panel-body ul{
@@ -115,7 +115,7 @@ div.panel-group{
 }
 .panel-title a, .panel-body li a{
     color: rgb(137,137,137);
-    font-family: "Arial", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
 }
 .panel-title a:hover, .panel-body li a:hover{
     cursor: pointer;
@@ -138,14 +138,16 @@ div.panel-group{
     margin-bottom: 200px;
 }
 .article h3, .article h4{
-    font-family: sans-serif;
-    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;;
     padding: 10px 0 0;
-    color: #ad2e2d
+    color: #ad2e2d;
+    text-align: center
 }
-.article div{
-    width: 100%;
-    text-align: center;
+.article strong{
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;;
+    padding: 10px 0 0;
+    color: rgb(105, 124, 122);
+
 }
 .article img{
     width: 70%;
@@ -154,12 +156,12 @@ div.panel-group{
     margin-bottom: 10px;
 }
 .article p, .article li{
-    font-family: "Arial", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;;
     font-size: 14px;
     color: rgb(137,137,137);
     line-height: 1.7;
     margin-bottom: 0;
-    text-align: left
+    text-align: left;
 }
 .article a{
     color:  rgb(255,132,0);
@@ -168,7 +170,12 @@ div.panel-group{
 .article a:hover{
     cursor: pointer;
 }
-
+.article div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
 footer{
     width: 100%;
