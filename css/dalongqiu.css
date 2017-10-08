@@ -211,16 +211,16 @@ div#main_title div:last-child img{
     align-items: center;
 }
 .culture_inner_container img{
-    width: 420px;
-    height: 320px;
+    width: 375px;
+    height: 300px;
 }
 .culture_inner_container div{
     writing-mode: vertical-rl;
     box-sizing: border-box;
-    padding: 37px 30px 33px;
+    padding: 37px 25px 33px;
     height: 380px;
     width: 780px;
-    line-height: 1.7;
+    line-height: 1.8;
     letter-spacing:1px;
     color: rgb(105, 124, 122);
 }
