@@ -330,7 +330,7 @@ div.tea button:hover{
     align-items:center
 }
 #produce_container p{
-    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
     box-sizing: border-box;
     line-height: 1.8;
     letter-spacing:1px;
@@ -344,11 +344,11 @@ div.tea button:hover{
     border:1px solid rgb(105, 124, 122);
     color: rgb(105, 124, 122);
     box-sizing: border-box;
-    padding: 40px 0px;
+    padding: 40px 0;
     display: inline-block;
-    margin-left: 9px;
-    margin-right: 2px;
-    width: 23px;
+    margin-right: 9px;
+    margin-left: 2px;
+    width: 26px;
     box-sizing: border-box;
 }
 #produce_container span.step-darker{
