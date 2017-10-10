@@ -15,15 +15,15 @@ $(document).ready(function(){
             $('.modal-body .modal-des').html('传承一千六百年雁荡毛峰精髓。原料采自海拔600多米的雁荡山大龙湫高山有机茶区，在阳光雨雾滋润下，汲取雁荡山亿年火化岩之精华，融合非物质文化加工技艺；<br><br><span class="modal_title_color">品质特征：</span><br>外形秀长紧结，色泽翠绿，芽毫隐露；干茶带有海苔鲜香；汤色明亮；香气高、幽；叶底自然舒展；滋味鲜爽、回甘持久。大龙湫茶有一饮加“三闻”之说。一闻迎面清新，再闻香气悠长，三闻茶香四溢；头泡滋味鲜爽，二、三泡醇厚，四、五泡仍有感人茶韵。细细品味，渐觉舒身自在、轻盈畅快。<br>');
     }else if($(this).hasClass('tea_class2_btn')){
         $('.modal-body img').attr('src','imgs/tea_package2.jpg');
-        $('.modal-body h4').text('大龙湫 ▪ 有机红茶');
-        $('.modal-body small').text('雁荡精华 有机红茶');
+        $('.modal-body h4').text('大龙湫 ▪ 精品红茶');
+        $('.modal-body small').text('雁荡精华 精品红茶');
         $('.modal-body .modal-des').html('大龙湫精心研发，茶品具温和之性，原料采自海拔600多米的雁荡山大龙湫高山有机茶园，合理利用春茶，融合传统红茶的工艺精制而成，具有雁荡山地域亿年火化岩之韵味的一款红茶,适宜经常饮用<br><br><span class="modal_title_color">特点有四：</span><br>1) 干茶色泽乌褐润泽，外形粗壮紧实，自然卷曲；<br>2) 香气清幽持久，具有雁荡山茶特有清甜香和火化岩韵；<br>3) 汤色金黄明亮或澄红的明亮；<br>4) 滋味清醇柔绵，饮后生津明显，齿颊留香。<br>');
              
              }else if($(this).hasClass('tea_class3_btn')){
                  $('.modal-body img').attr('src','imgs/tea_longjing.png');
                  $('.modal-body img').addClass('small-pic');
                 $('.modal-body h4').text('大龙湫 ▪ 精品龙井');
-                 $('.modal-body small').text('雁荡精华 有机龙井');
+                 $('.modal-body small').text('雁荡精华 精品龙井');
                  $('.modal-body .modal-des').html('龙井茶已有千年历史，二十世纪初，茶品因产地、炒制方法的差异，而有“狮、龙、云、虎、梅”称呼，如“狮字龙井”。后又改为“狮、龙、梅”三种品类，“狮字龙井”或“狮峰龙井”产于西湖乡龙井村；“梅字龙井”或“梅均龙井”产于西湖乡梅家坞、梵村、云栖、外大桥一带。“龙字龙井”或“西湖龙井”则产于西湖乡其余地方。<br><br><span class="modal_title_color">外形特点：</span><br>龙井茶品四绝为“色绿、香郁、味甘、形美”是由于色泽翠绿，香气浓郁，甘醇爽口，形如雀舌，茶叶为一芽一叶或二叶，叶扁形且细，宽度条形整齐，颜色为绿黄。<br>');
                  
              }else if($(this).hasClass('tea_class4_btn')){
@@ -34,7 +34,7 @@ $(document).ready(function(){
                  $('.modal-body .modal-des').html('六安产茶历史久远，，明代许次纾在茶疏中提到“天下名山，必产灵草。江南地暖，故独有茶。大江以北，则称六安”。为中国十大名茶之一。大龙湫茶叶精选自六安瓜片非物质文化遗产传承人手艺，严格甄选，为广大客户提供真正的品质好茶。<br><br><span class="modal_title_color">外形特点：</span><br>1) 六安瓜片外形似瓜子，色泽翠绿，香气清高，味鲜甘美，耐冲泡。片茶指全由叶片制成的不带嫩芽和嫩茎的茶叶品种。沏茶时雾气蒸腾，清香四溢，亦有“齐山云雾瓜片”之称。');
                  
              }else if($(this).hasClass('tea_class5_btn')){
-                 $('.modal-body img').attr('src','imgs/tea_biluo.png');
+                 $('.modal-body img').attr('src','imgs/tea_biluo1.png');
                  $('.modal-body img').addClass('small-pic');
              $('.modal-body h4').text('大龙湫 ▪ 碧螺春');
                  $('.modal-body small').text('雁荡精华 有机碧螺');
