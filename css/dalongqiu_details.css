@@ -60,7 +60,7 @@ header #navbar a.nav_logo:hover{
 #banner{
     width: 100%;
     height: 150px;
-    background: url(../imgs/tea_hill.png) no-repeat;
+    background: url(../imgs/tea_hill.jpg) no-repeat;
     background-size: cover;
     background-position: top;
 }
