@@ -215,6 +215,10 @@ div#main_title div:last-child img{
     height: 300px;
 }
 .culture_inner_container div{
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
     writing-mode: vertical-rl;
     box-sizing: border-box;
     padding: 37px 25px 33px;
@@ -311,7 +315,6 @@ div.tea button:hover{
 
 }
 
-
 #produce_container{
     width: 100%;
     margin: 0;
@@ -330,6 +333,10 @@ div.tea button:hover{
     align-items:center
 }
 #produce_container p{
+    -ms-writing-mode: tb-lr;
+    -webkit-writing-mode: vertical-lr;
+    -moz-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
     writing-mode: vertical-lr;
     box-sizing: border-box;
     line-height: 1.8;
@@ -361,27 +368,6 @@ div.tea button:hover{
     width: 370px;
 }
 
-
-#about_container{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background: white; 
-}
-
-#about_inner_container{
-    width: 100%;
-    min-width: 1024px;
-    max-width: 1200px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 30px 0px;
-    color: rgb(105, 124, 122)
-}
-
-#about_container span{
-    color: #ad2e2d;
-}
 
 .module-title{
     color: #ad2e2d;
