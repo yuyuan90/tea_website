@@ -16,7 +16,7 @@ var q = GetQueryString("q");
 
       //ajax 
         $.ajax({
-            url:'https://yuyuan90.github.io/tea_website/json/'+q+'.json',
+            url:'../json/'+q+'.json',
             method:'GET',
             dataType: 'JSON',
             success: function(response){  $('.article').html(response.blog);         
