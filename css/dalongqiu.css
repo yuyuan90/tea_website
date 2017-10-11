@@ -3,9 +3,9 @@ body{
     min-width: 1024px;
     height: 100%;
     margin: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
-    background: #F7F7F7
+    overflow: auto;
+    background: #F7F7F7;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif
 }
 #container{
     width: 100%;
@@ -75,7 +75,7 @@ a.left, a.right{
     height: 680px;
     margin: 0 auto;
     background-size: cover;
-    background: url('../imgs/tea_cover.jpg') no-repeat top left;
+    background: url('../imgs/tea_cover1.jpg') no-repeat top left;
 }
 
 
